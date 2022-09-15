@@ -1,0 +1,160 @@
+.navbar {
+  margin-bottom: 64px;
+}
+
+.nvAppBar {
+  box-shadow: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.nvTitle {
+  flex-grow: 1;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}
+.nvImage {
+  margin-right: 10px;
+}
+
+.prContent {
+  flex-grow: 1;
+  background-color: #fff;
+  padding: 40px;
+}
+
+.pCardRoot {
+  max-width: 100%;
+  height: 100%;
+}
+
+.pCardMedia {
+  height: 0;
+  padding-top: 56.25%;
+}
+
+.pCardActions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pCardContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cTitle {
+  margin-top: 5% !important;
+}
+
+.cCardDetails {
+  display: flex;
+  margin-top: 10%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.cEmptyButton {
+  min-width: 150px !important;
+}
+
+.cCheckoutButton {
+  min-width: 150px !important;
+}
+
+.ciMedia {
+  height: 260px;
+}
+
+.ciCardContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ciCardActions {
+  justify-content: space-between;
+}
+
+.ciButtons {
+  display: flex;
+  align-items: center;
+}
+
+.coAppBar {
+  position: relative;
+}
+
+.coLayout {
+  margin-top: 5%;
+  width: auto;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.coPaper {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 16px;
+}
+
+.coStepper {
+  padding: 24px 0 40px;
+}
+
+.coButtons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.coButton {
+  margin-top: 24px;
+  margin-left: 8px;
+}
+
+.coDivider {
+  margin: 20px 0;
+}
+
+.coSpinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+  .nvAppBar {
+    width: calc(100% - 0);
+    margin-left: 0;
+  }
+
+  .cEmptyButton {
+    margin-right: 20px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cEmptyButton {
+    margin-bottom: 5px !important;
+  }
+
+  .coPaper {
+    width: 100%;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 632px) {
+  .coLayout {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 648px) {
+  .coPaper {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding: 24px;
+  }
+}
